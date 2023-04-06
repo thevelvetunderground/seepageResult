@@ -1,0 +1,5 @@
+trainNum = 2048
+bcNum = 400
+testNum = 400
+lr = 0.0001
+num = 1500

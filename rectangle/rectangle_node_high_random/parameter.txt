@@ -1,0 +1,11 @@
+epochs = 30000
+random_points = 3000
+min_delta=1e-4
+patience=2000
+trainNum = 1024
+bcNum = 200
+testNum = 200
+lr = 0.0001
+sampleMode:random	num:300
+optimizer: adam + L-BFGS
+RARMode: on

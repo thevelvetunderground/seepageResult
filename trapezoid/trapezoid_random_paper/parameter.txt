@@ -1,0 +1,15 @@
+trainNum = 2048
+bcNum = 400
+testNum = 400
+lr = 0.0001
+layerSize = [2] + [50]*4 + [2]
+activation = "tanh"
+initializer = "Glorot uniform"
+optimizer1 = 'adam'
+optimizer2 = 'L-BFGS'
+epochs = 30000
+random_points = 6000
+min_delta=1e-4
+patience=2000
+w = 52
+h = 12

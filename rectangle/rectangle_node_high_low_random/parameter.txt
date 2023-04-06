@@ -1,0 +1,17 @@
+trainNum = 1024
+bcNum = 200
+testNum = 200
+lr = 0.0001
+layerSize = [2] + [50]*4 + [2]
+activation = "tanh"
+initializer = "Glorot uniform"
+optimizer1 = 'adam'
+optimizer2 = 'L-BFGS'
+epochs = 30000
+random_points = 3000
+w = 5
+h = 10
+# 如果重采样的话
+min_delta=1e-4
+patience=2000
+num=500
